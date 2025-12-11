@@ -7,13 +7,14 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".SignInActivity">
+    tools:context=".SignUpActivity">
 
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="90dp"
+        android:layout_marginBottom="20dp"
         app:startIconDrawable="@drawable/baseline_person_24"
 
         android:layout_height="wrap_content">
@@ -86,4 +87,15 @@
         android:textSize="30dp"
         android:id="@+id/btnsignup"
         android:text="Sign Up"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Sign In !"
+        android:layout_gravity="right"
+        android:textColor="#FF5050"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="20dp"
+        android:id="@+id/signIn"/>
 </LinearLayout>
